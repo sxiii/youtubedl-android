@@ -1,4 +1,4 @@
-## Python for Android *steps for building on X86_64*
+## Python for Android *steps for building on ARM*
 For other archs, please review according file:
 * BUILD_PYTHON_ARM.md
 * BUILD_PYTHON_X86_64.md or 
