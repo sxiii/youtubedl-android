@@ -1,5 +1,5 @@
-
-## Python for Android
+## Python for Android *steps for building on ARM*
+For other archs, please review according file (BUILD_PYTHON_ARM.md, BUILD_PYTHON_X86_64.md or BUILD_PYTHON_X86.md files)
 
 Python can be built for android using the termux python package.
 
@@ -7,7 +7,8 @@ Prerequisites : git, docker
 
     git clone git@github.com:termux/termux-packages.git
     cd termux-packages
-    
+
+
 create a file `build-python.sh` with below content
 
     #!/bin/bash
@@ -15,7 +16,7 @@ create a file `build-python.sh` with below content
     export TERMUX_PREFIX=/data/youtubedl-android/usr
     export TERMUX_ANDROID_HOME=/data/youtubedl-android/home
     ./build-package.sh python
-    
+
 Make file executable
 
     chmod +x ./build-python.sh
@@ -46,3 +47,4 @@ The python zip archive as used in youtubedl-android can be created using the fol
     cd data/youtubedl-android
     zip -r /tmp/python3_7_arm.zip usr/
     
+NOTE: Version numbers can be different. Use <TAB> key for auto-fill, do not copy-paste.
