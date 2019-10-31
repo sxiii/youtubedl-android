@@ -1,5 +1,8 @@
-## Python for Android *steps for building on ARM*
-For other archs, please review according file (BUILD_PYTHON_ARM.md, BUILD_PYTHON_X86_64.md or BUILD_PYTHON_X86.md files)
+## Python for Android *steps for building on X86_64*
+For other archs, please review according file:
+* BUILD_PYTHON_ARM.md
+* BUILD_PYTHON_X86_64.md or 
+* BUILD_PYTHON_X86.md
 
 Python can be built for android using the termux python package.
 
