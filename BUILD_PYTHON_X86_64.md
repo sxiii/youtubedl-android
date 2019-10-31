@@ -8,7 +8,7 @@ Python can be built for android using the termux python package.
 
 Prerequisites : git, docker
 
-    git clone git@github.com:termux/termux-packages.git
+    git clone https://github.com/termux/termux-packages
     cd termux-packages
 
 create a file `build-python.sh` with below content
