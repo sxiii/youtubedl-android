@@ -1,3 +1,7 @@
+# DEMO
+Pre-compiled sample demo program for youtube-dl is available in the repo (app-debug.apk)
+Note: google play market may tell that the app is dangerous because google don't like people to download videos from youtube
+
 # youtubedl-android
 Android library wrapper for [youtube-dl](https://github.com/rg3/youtube-dl) executable
 
